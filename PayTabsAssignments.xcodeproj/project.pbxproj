@@ -384,7 +384,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9Q72F3N427;
+				DEVELOPMENT_TEAM = GK35GNBEWU;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PayTabsAssignments/FrameWork",
@@ -395,6 +396,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_CFLAGS = "-fembed-bitcode";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
@@ -436,7 +438,7 @@
 					"\"UIKit\"",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.PayTabsAssignments;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paytabs.PayTabsAssignments;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = /Users/unitlabs/myFiles/myworkspace/RxSwiftExamples/PayTabsAssignments/PayTabsAssignments/Bridge_Header/PayTabsAssignments_Bridging_Header.h;
 				SWIFT_VERSION = 5.0;
@@ -450,7 +452,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9Q72F3N427;
+				DEVELOPMENT_TEAM = GK35GNBEWU;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PayTabsAssignments/FrameWork",
@@ -461,6 +464,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_CFLAGS = "-fembed-bitcode";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"$(inherited)",
@@ -502,7 +506,7 @@
 					"\"UIKit\"",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.PayTabsAssignments;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paytabs.PayTabsAssignments;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = /Users/unitlabs/myFiles/myworkspace/RxSwiftExamples/PayTabsAssignments/PayTabsAssignments/Bridge_Header/PayTabsAssignments_Bridging_Header.h;
 				SWIFT_VERSION = 5.0;

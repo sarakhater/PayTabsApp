@@ -62,7 +62,7 @@ class ViewController: UIViewController {
             andWithOrderID: "100",
             andWithPhoneNumber: "00201028284349",
             andWithCustomerEmail: "rhegazy@paytabs.com",
-            andIsTokenization:false,
+            andIsTokenization:true,
             andIsPreAuth: false,
             andWithMerchantEmail: "sarakhater2014@gmail.com",
             andWithMerchantSecretKey: secretKey,
