@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  PayTabsAssignments
 //
-//  Created by unitlabs on 6/5/20.
 //  Copyright © 2020 sarakhater. All rights reserved.
 //
 
